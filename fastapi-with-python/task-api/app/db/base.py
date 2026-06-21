@@ -1,0 +1,9 @@
+"""SQLAlchemy declarative base — all ORM models inherit from this class."""
+
+from sqlalchemy.orm import DeclarativeBase
+
+
+class Base(DeclarativeBase):
+    """Shared SQLAlchemy declarative base for all ORM models."""
+
+    pass

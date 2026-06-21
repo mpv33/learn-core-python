@@ -1,51 +1,53 @@
+# ── Core Python content ─────────────────────
+core-python/**/__pycache__/
+core-python/**/*.py[cod]
+core-python/**/*$py.class
+core-python/**/.pytest_cache/
+core-python/**/.mypy_cache/
+core-python/**/.ruff_cache/
+core-python/**/temp_demo/
+core-python/**/sample.txt
+core-python/**/data.json
+core-python/**/students.csv
+core-python/**/products.csv
+core-python/**/ctx_demo.txt
+
+# ── FastAPI project ─────────────────────────
+fastapi-with-python/**/__pycache__/
+fastapi-with-python/**/*.py[cod]
+fastapi-with-python/**/.pytest_cache/
+fastapi-with-python/task-api/task_api.db
+fastapi-with-python/task-api/.venv/
+fastapi-with-python/**/.ruff_cache/
+
 # Virtual environments
 .venv/
 venv/
 env/
 ENV/
 
-# Python cache
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-
 # Distribution / packaging
-build/
-dist/
 *.egg-info/
 *.egg
 
 # Testing & coverage
-.pytest_cache/
 .coverage
 htmlcov/
-.mypy_cache/
-.ruff_cache/
 
-# IDE
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+
+# ── IDE & OS ────────────────────────────────
 .idea/
 .vscode/
 *.swp
 *.swo
 .DS_Store
-
-# Environment & secrets (never commit)
-.env
-.env.*
-*.pem
-credentials.json
-
-# Temp files created by examples
-**/temp_demo/
-**/sample.txt
-**/data.json
-**/students.csv
-**/products.csv
-**/ctx_demo.txt
+Thumbs.db
 
 # Jupyter
 .ipynb_checkpoints/
-
-# OS
-Thumbs.db
