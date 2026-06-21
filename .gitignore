@@ -1,0 +1,51 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Environment & secrets (never commit)
+.env
+.env.*
+*.pem
+credentials.json
+
+# Temp files created by examples
+**/temp_demo/
+**/sample.txt
+**/data.json
+**/students.csv
+**/products.csv
+**/ctx_demo.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
