@@ -1,6 +1,6 @@
 # Core Python
 
-All learning content for this repository lives here.
+**Phase 1** of the [GenAI Full-Stack Developer Track](../README.md) — Python foundation before FastAPI and GenAI projects.
 
 ```
 core-python/
@@ -31,3 +31,9 @@ Each lesson file has **THEORY** (docstring) + **PRACTICE** (numbered runnable se
 | 07 | Advanced & Production | [07-advanced-and-production](modules/07-advanced-and-production/) |
 
 **Interview prep:** [interview-prep/](interview-prep/)
+
+---
+
+## Next — Phase 2
+
+After modules 01, 03, 04, 05 → [backend-with-fastapi](../backend-with-fastapi/) (FastAPI backend for GenAI apps).

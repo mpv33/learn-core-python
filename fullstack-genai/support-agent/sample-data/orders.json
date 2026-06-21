@@ -1,0 +1,44 @@
+{
+  "orders": [
+    {
+      "order_id": "ORD-1001",
+      "customer_email": "alex@example.com",
+      "status": "shipped",
+      "carrier": "FedEx",
+      "tracking_number": "794612345678",
+      "estimated_delivery": "2025-06-24",
+      "items": ["Wireless Headphones — Black"],
+      "total_usd": 89.99
+    },
+    {
+      "order_id": "ORD-1002",
+      "customer_email": "jamie@example.com",
+      "status": "processing",
+      "carrier": null,
+      "tracking_number": null,
+      "estimated_delivery": "2025-06-28",
+      "items": ["USB-C Hub", "Laptop Stand"],
+      "total_usd": 124.50
+    },
+    {
+      "order_id": "ORD-1003",
+      "customer_email": "sam@example.com",
+      "status": "delivered",
+      "carrier": "UPS",
+      "tracking_number": "1Z999AA10123456784",
+      "delivered_at": "2025-06-18",
+      "items": ["Running Shoes — Size 10"],
+      "total_usd": 64.00
+    },
+    {
+      "order_id": "ORD-1004",
+      "customer_email": "taylor@example.com",
+      "status": "return_requested",
+      "carrier": "USPS",
+      "return_label_sent": true,
+      "items": ["Smart Watch — Silver"],
+      "total_usd": 199.00,
+      "notes": "Return initiated 2025-06-19; refund after warehouse receipt"
+    }
+  ]
+}

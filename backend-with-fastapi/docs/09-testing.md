@@ -76,7 +76,7 @@ pytest tests/api/v1/test_auth.py -v   # single file
 ### 1. Run all tests
 
 ```bash
-cd fastapi-with-python/task-api
+cd backend-with-fastapi/task-api
 source .venv/bin/activate
 make test
 ```

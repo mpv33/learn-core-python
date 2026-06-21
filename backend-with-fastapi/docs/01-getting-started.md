@@ -41,7 +41,7 @@ uvicorn app.main:app --reload
 ## Setup steps
 
 ```bash
-cd fastapi-with-python/task-api
+cd backend-with-fastapi/task-api
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt

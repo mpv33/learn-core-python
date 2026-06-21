@@ -121,7 +121,7 @@ sqlite3 task_api.db ".tables"
 ### 3. Run migrations
 
 ```bash
-cd fastapi-with-python/task-api
+cd backend-with-fastapi/task-api
 source .venv/bin/activate
 alembic upgrade head
 alembic current    # shows current revision

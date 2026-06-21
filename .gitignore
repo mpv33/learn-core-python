@@ -13,12 +13,25 @@ core-python/**/products.csv
 core-python/**/ctx_demo.txt
 
 # ── FastAPI project ─────────────────────────
-fastapi-with-python/**/__pycache__/
-fastapi-with-python/**/*.py[cod]
-fastapi-with-python/**/.pytest_cache/
-fastapi-with-python/task-api/task_api.db
-fastapi-with-python/task-api/.venv/
-fastapi-with-python/**/.ruff_cache/
+backend-with-fastapi/**/__pycache__/
+backend-with-fastapi/**/*.py[cod]
+backend-with-fastapi/**/.pytest_cache/
+backend-with-fastapi/task-api/task_api.db
+backend-with-fastapi/task-api/.venv/
+backend-with-fastapi/**/.ruff_cache/
+
+# ── GenAI projects ───────────────────────────
+fullstack-genai/**/__pycache__/
+fullstack-genai/**/*.py[cod]
+fullstack-genai/**/.pytest_cache/
+fullstack-genai/rag-assistant/backend/.venv/
+fullstack-genai/rag-assistant/backend/data/
+fullstack-genai/rag-assistant/frontend/node_modules/
+fullstack-genai/rag-assistant/frontend/.next/
+fullstack-genai/support-agent/backend/.venv/
+fullstack-genai/support-agent/backend/data/
+fullstack-genai/support-agent/frontend/node_modules/
+fullstack-genai/support-agent/frontend/.next/
 
 # Virtual environments
 .venv/

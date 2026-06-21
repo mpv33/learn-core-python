@@ -1,4 +1,4 @@
-# FastAPI with Python — Learning Guide
+# Backend with FastAPI — Learning Guide
 
 Complete step-by-step guide for learning backend development with FastAPI using the **task-api** project in this repo.
 
@@ -50,7 +50,7 @@ A **Task Management REST API** — users log in, create tasks, and admins manage
 ## Quick setup (Step 1 summary)
 
 ```bash
-cd fastapi-with-python/task-api
+cd backend-with-fastapi/task-api
 python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -109,7 +109,7 @@ flowchart LR
 ## Project location
 
 ```
-fastapi-with-python/
+backend-with-fastapi/
 ├── LEARNING-GUIDE.md          ← you are here
 ├── README.md
 ├── docs/                      ← step-by-step guides (01–12)

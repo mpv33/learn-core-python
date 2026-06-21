@@ -1,0 +1,25 @@
+# Company Knowledge Base — Sample Document for RAG testing
+
+## Vacation Policy
+
+All full-time employees receive 20 days of paid vacation per year.
+Vacation requests must be submitted at least 2 weeks in advance through the HR portal.
+Unused vacation days roll over up to 5 days into the next calendar year.
+
+## Remote Work Policy
+
+Employees may work remotely up to 3 days per week with manager approval.
+Core collaboration hours are 10:00 AM to 3:00 PM in the employee's local timezone.
+Equipment stipend of $500 is provided for home office setup.
+
+## Refund Policy
+
+Customer refunds are processed within 7 business days for eligible purchases.
+Digital products may be refunded within 14 days if less than 2 hours of usage.
+Contact support@company.com with your order ID to initiate a refund.
+
+## Security Guidelines
+
+All employees must enable two-factor authentication on company accounts.
+Do not share credentials or store passwords in plain text.
+Report security incidents to security@company.com within 1 hour of discovery.

@@ -1,6 +1,6 @@
 # Task API
 
-Production-style **Task Management REST API** — the hands-on project for the [FastAPI learning guides](../docs/README.md).
+Production-style **Task Management REST API** — the hands-on project for the [Backend with FastAPI learning guides](../docs/README.md).
 
 > **Learning?** Start with the [Learning Guide](../LEARNING-GUIDE.md), not this file.
 
